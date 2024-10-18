@@ -1,5 +1,6 @@
 Config = {}
 
+Config.OpenKey = 'U'
 Config.NotifyTitle = 'Vehicle Keys'
 
 Config.OpenMessage = "The vehicle is now open"
