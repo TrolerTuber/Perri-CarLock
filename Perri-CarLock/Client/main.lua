@@ -2,7 +2,7 @@ local inVehicle = false
 local keybind = lib.addKeybind({
     name = 'openCar',
     description = 'press U to open car',
-    defaultKey = 'U',
+    defaultKey = Config.OpenKey,
     onPressed = function(self)
         checkCar()
     end
